@@ -12,7 +12,8 @@ Built on the Stoic dichotomy of control: separate what depends on you from what 
 - `AGENTS.md`: the instructions the assistant follows. Your profile goes in its About me section. `CLAUDE.md` and `GEMINI.md` only point to it, for tools that look for those names.
 - `entries/`: one file per day.
 - `state.md`: a daily table of how you felt next to tracker numbers, for spotting correlations.
-- `patterns.md`: recurring tendencies and what you agreed about them.
+- `patterns.md`: recurring tendencies and what you agreed about them, kept short because the assistant reads it in every analysis.
+- `patterns-evidence.md`: the full dated history behind each pattern. The assistant searches it instead of reading it, so the journal stays fast as it grows.
 - `aspirations.md`: what matters to you, used to check the direction of decisions.
 - `health.md`, `dreams.md`: symptoms and dreams, when they come up.
 - `whoop/`: optional script that pulls Whoop data into ready markdown tables.
